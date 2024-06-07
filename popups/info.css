@@ -1,37 +1,38 @@
-html{
-	background-color:#000000
+/*html{
+    background-color:#000000
 }
 body{
-	background-color:#000000
+    background-color:#000000
 }
+*/
 .mainTitle{
-	font-size:20px;
-	font-weight: bold;
-	padding: 5px 155px;
-	margin:0 0 10px 0;
+    font-size:20px;
+    font-weight: bold;
+    text-align: center;
+    margin:0 0 10px 0;
 }
 
 .row{
-	margin: 0;
-	padding: 0px 20px
+    margin: 0;
+    padding: 0px 14px
 }
 .title{
-	font-size:15px;
+    font-size:15px;
 }
 .desc{
-	font-size:12px;
-	color:#B0A7FF;
-	padding:0 20px
+    font-size:16px;
+/*    color:#B0A7FF;*/
+    padding:0 20px
 }
 .val{
-	font-size:15px;
-	color:#BDBDBD;
-	padding:0 5px
+    font-size:15px;
+/*    color:#BDBDBD;*/
+    padding:0 5px
 }
 .version{
-	font-size:13px;
+    font-size:15px;
 }
-.hInfo{
-	font-size:11px;
-	color:#A24141
-}
+/*.hInfo{
+    font-size:11px;
+    color:#A24141
+}*/

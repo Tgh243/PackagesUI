@@ -12,12 +12,12 @@ contexts:
       captures:
         2: punctuation.definition.help.symbol
 
-    - match: '\s{4}(?:(✔))(\s)(.+?(?=\s{3,}))'
+    - match: '\s{4}(?:(●))(\s)(.+?(?=\s{3,}))'
       scope: meta.item.pack.name.enabled
       captures:
         1: punctuation.definition.bullet.enabled.pack
         3: punctuation.definition.pack.name.enabled
-    - match: '\s{4}(?:(☐))(\s)(.+?(?=\s{3,}))'
+    - match: '\s{4}(?:(○))(\s)(.+?(?=\s{3,}))'
       scope: meta.item.pack.name.disabled
       captures:
         1: punctuation.definition.bullet.disabled.pack
